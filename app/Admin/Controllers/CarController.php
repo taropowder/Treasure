@@ -86,8 +86,14 @@ class CarController extends Controller
 
             return $model->particulars;
         });
-//        $grid->description('Description');
-//        $grid->money('Money');
+        $grid->images('图片')->display(function ($images){
+            $picures = [];
+
+            foreach ($images as $image){
+                $picures[] = $image['picture'];
+            }
+            return $picures;
+        })->light_box(['width' => 50, 'height' => 50, 'zooming' => true]);
         $grid->created_at('创建时间');
         $grid->updated_at('修改时间');
 

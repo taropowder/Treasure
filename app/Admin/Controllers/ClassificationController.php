@@ -5,6 +5,7 @@ namespace App\Admin\Controllers;
 use App\Car;
 use App\Classification;
 use App\Http\Controllers\Controller;
+use App\Image;
 use App\RootLink;
 use Encore\Admin\Controllers\HasResourceActions;
 use Encore\Admin\Form;
@@ -114,6 +115,15 @@ class ClassificationController extends Controller
             $classification_car->disableRowSelector();
             $classification_car->disableActions();
             $classification_car->car()->name('车型名称');
+            $classification_car->id('图片')->display(function ($id){
+                $images = Image::where('car_id',$id)->get();
+                $picures = [];
+
+                foreach ($images as $image){
+                    $picures[] = $image['picture'];
+                }
+                return $picures;
+            })->gallery(['width' => 60, 'height' => 60, 'zooming' => true]);
         });
         return $show;
     }
