@@ -15,4 +15,4 @@ _ide_helper_models.php
 .phpstorm.meta.php
 .DS_Store
 /resource/views/admin/index.blade.php
-*.DS_Store
+**/.DS_Store
