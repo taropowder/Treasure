@@ -13,6 +13,7 @@
         "codingyu/ueditor": "^2.0",
         "encore/laravel-admin": "^1.6",
         "fideloper/proxy": "^4.0",
+        "jxlwqq/env-manager": "^0.1.0",
         "jxlwqq/material-ui": "^1.0",
         "laravel/framework": "5.8.*",
         "laravel/tinker": "^1.0",
