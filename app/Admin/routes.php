@@ -23,5 +23,6 @@ Route::group([
     $router->resource('announcements', AnnouncementController::class);
     $router->resource('classifications', ClassificationController::class);
     $router->resource('footers', FooterController::class);
+    $router->resource('gallery', GalleryController::class);
 
 });

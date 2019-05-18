@@ -16,6 +16,9 @@
 //});
 
 Route::get('/','IndexController@accordingToHomePage');
+Route::get('/gallery',function (){
+    return view('gallery');
+});
 
 Route::get('/index', function () {
     return view('index');

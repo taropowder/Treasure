@@ -1,1 +1,24 @@
-<h1 label="标题居中" style="font-size: 32px; font-weight: bold; border-bottom: 2px solid rgb(204, 204, 204); padding: 0px 4px 0px 0px; text-align: center; margin: 0px 0px 20px;">DIY 车型时代的到来<br/></h1><p style="text-align: center;">随着时代的进步,科技的发展,DIY车型收到了越来越多的欢迎<br/></p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p style="text-align: center;"><img src="http://localhost/storage/uploads/image/2019/05/10/c83ca649fe7b603ed4a05bfac481f60e.jpg" alt="922007_756249f489504b7aa1e73c23161f8b8f~mv2_d_4032_1960_s_2.jpg (688Ã334)"/></p><p style="text-align: center;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;低速车&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<br/></p><p><br/></p><p style="text-align: center;"><img src="http://localhost/storage/uploads/image/2019/05/10/8733e384729438cbb09eb6a6523ef06b.jpg" title="/uploads/image/2019/05/10/8733e384729438cbb09eb6a6523ef06b.jpg" alt="high.jpg"/></p><p style="text-align: center;">高速车</p>
+<div class="ps-section--offer">
+    <div class="ps-column" style="padding: 1.6rem;box-sizing: border-box"><a  href=""><img src="/images/index/001.jpg" alt=""></a>
+    <p>XEV is an innovative startup that combines additive manufacturing and smart urban mobility.
+        Our mission is to reduce waste of materials, time and money created by traditional manufacturing.</p>
+    </div>
+    <div class="ps-column" style="padding: 1.6rem;box-sizing: border-box"><a  href=""><img src="/images/index/002.jpg" alt=""></a>
+    <p>XEV has developed industrial 3D printing technologies and processes for automotive mass production.
+        We use 3D printing to give our customers an ultimate user experience through fast product development,
+        customization and flexibility of design.
+    </p></div>
+
+
+    <div class="ps-column" style="padding: 1.6rem;box-sizing: border-box"><a  href=""><img src="/images/index/003.jpg" alt=""></a>
+        <p>XEV urban electric vehicles combine a flexible modular chassis,
+            beautifully designed 3D printed interior and exterior panels together with a comfortable,
+            easy to use driving experience. The style of the vehicle can be updated and changed easily for a
+            cost of an iPhone upgrade.
+        </p>
+    </div>
+    <div class="ps-column" style="padding: 1.6rem;box-sizing: border-box"><a  href=""><img src="/images/index/004.jpg" alt=""></a>
+        <p>The goal of XEV is to capitalize on the benefits of Industry 4.0 in order to reach Zero manufacturing waste,
+            Zero cost of customization, maximize the use of Smart Data and provide ultimate customer experience.
+        </p></div>
+</div>

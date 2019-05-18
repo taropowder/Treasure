@@ -41,7 +41,7 @@
 <!--[if IE 9]><body class="ie9 lt-ie10"><![endif]-->
 <body class="ps-loading">
 <div class="header--sidebar"></div>
-<header class="header">
+<header class="header" style="background-color: #fff;">
     <div class="header__top">
         <div class="container-fluid">
             <div class="row">
@@ -70,6 +70,8 @@
             <div class="navigation__column center">
                 <ul class="main-menu menu">
                     <li class="menu-item menu-item-has-children dropdown"><a href="/">主页</a>
+                    </li>
+                    <li class="menu-item menu-item-has-children dropdown"><a href="/gallery">展示</a>
                     </li>
                     @foreach(\App\Classification::all() as $classification)
                         <li class="menu-item menu-item-has-children dropdown"><a href="">{{ $classification['name'] }}</a>

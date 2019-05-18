@@ -22,7 +22,15 @@
 
 .masonry-wrapper.ac_masonry-grid[data-ratio="4by3"] .grid-item__inner {
   padding-top: 75%; }
-
+.ps-column p{
+  margin-top: 1rem;
+  font-size: 1.9rem;
+  color: #000;
+  margin-left: 1rem;
+  line-height: 2.3rem;
+  margin-bottom: .5rem;
+  padding-top: 0rem;
+}
 .masonry-wrapper.ac_masonry-grid[data-ratio="4by3"] .grid-item.extra-large .grid-item__inner, .masonry-wrapper.ac_masonry-grid[data-ratio="4by3"] .grid-item.wide .grid-item__inner {
   padding-top: 37.5%; }
 
