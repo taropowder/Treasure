@@ -8,19 +8,20 @@
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
     <!-- Main -->
     <div id="main">
-        <article class="thumb">
-            <a href="/storage/images/922007_abd51dbb8cb640c19409f12209955e66_mv2_d_8000_6000_s_4_2 (1).jpg" class="image1">
-                <img src="/storage/images/922007_abd51dbb8cb640c19409f12209955e66_mv2_d_8000_6000_s_4_2 (1).jpg" alt=""  style="display: block"/>
-                {{--<img src="images/thumbs/02.jpg" alt="" />--}}
+        <div class="thumb">
+            <a href="/storage/images/922007_abd51dbb8cb640c19409f12209955e66_mv2_d_8000_6000_s_4_2 (1).jpg" class="image">
+                <img src="/storage/images/922007_abd51dbb8cb640c19409f12209955e66_mv2_d_8000_6000_s_4_2 (1).jpg" alt="" height="100%" width="100%"/>
             </a>
             <h2>Magna feugiat lorem</h2>
-            <p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
-        </article>
-        <article class="thumb">
-            <a href="images/fulls/02.jpg" class="image1"><img src="images/thumbs/02.jpg" alt="" /></a>
+        </div>
+        <div class="thumb">
+            <a href="images/fulls/02.jpg" class="image"><img src="images/thumbs/02.jpg" alt="" height="100%" width="100%"/></a>
             <h2>Nisl adipiscing</h2>
-            <p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
-        </article>
+        </div>
+        <div class="thumb">
+            <a href="images/fulls/02.jpg" class="image"><img src="images/thumbs/02.jpg" alt="" width="100%" height="100%"/></a>
+            <h2>Nisl adipiscing</h2>
+        </div>
 
     </div>
 

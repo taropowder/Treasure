@@ -2,14 +2,11 @@
 
 @section('content')
     <div class="ps-banner">
-        <div class="rev_slider fullscreenbanner" id="home-banner">
-            <ul>
-                <video id="myVideo" class="select" preload="auto" src="/video/introduce.mp4" poster="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" autoplay="" playsinline="" muted="" loop="" webkit-playsinline="true" x-webkit-airplay="true"></video>
-            </ul>
+        <div class="forvideo">
+                <video class="select" preload="auto" src="/video/introduce.mp4" poster="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" autoplay="" playsinline="" muted="" loop="" webkit-playsinline="true" x-webkit-airplay="true"></video>
         </div>
     </div>
     @include('admin.index')
-
     <div class="ps-section ps-section--top-sales ps-owl-root pt-80 pb-80">
         <div class="ps-container">
             <div class="ps-section__header mb-50">
