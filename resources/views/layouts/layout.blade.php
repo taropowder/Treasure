@@ -146,7 +146,7 @@
 <main class="ps-main">
 
 @yield('content')
-<div class="ps-footer bg--cover" data-background="/images/background/parallax.jpg">
+<div class="ps-footer bg--cover">
     <div class="ps-footer__content">
         <div class="ps-container">
             <div class="row">
