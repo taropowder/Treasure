@@ -2366,6 +2366,7 @@ textarea.form-control {
       height: 300px;
     z-index: 100; }
     .ps-shoe .ps-shoe__thumbnail img {
+        height: 100%;
       width: 100%; }
   .ps-shoe .ps-shoe__overlay {
     position: absolute;
