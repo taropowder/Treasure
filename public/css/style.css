@@ -25,7 +25,7 @@
 .ps-column p{
   margin-top: 1rem;
   font-size: 1.9rem;
-  color: #000;
+  color: #5b5b5b;
   margin-left: 1rem;
   line-height: 2.3rem;
   margin-bottom: .5rem;
@@ -6601,6 +6601,7 @@ p {
   font-size: inherit;
   line-height: inherit;
   margin-bottom: 0;
+    color: #5b5b5b;!important;
 }
 .q-gridbuilder {
   padding-left: 1rem;
