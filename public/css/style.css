@@ -2363,6 +2363,7 @@ textarea.form-control {
     transition: all 0.3s ease; }
   .ps-shoe .ps-shoe__thumbnail {
     position: relative;
+      height: 300px;
     z-index: 100; }
     .ps-shoe .ps-shoe__thumbnail img {
       width: 100%; }
