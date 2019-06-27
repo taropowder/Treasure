@@ -27,5 +27,8 @@ Route::get('/index', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/low_speed', function (){
+    return view('low');
+});
 Route::get('/detail/{CarId}','CarController@showProductDetails')->name('details');
 Route::get('/pages/{page}','PageController@displayPage')->name('display_name');
